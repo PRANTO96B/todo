@@ -1,0 +1,437 @@
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+/* ===========nav part================ */
+
+#header{
+    padding: 32px 0;
+    background-color: #1C1E53;
+}
+
+.nav__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menuItem__nav{
+    display: flex;
+    column-gap: 32px;
+}
+.menuItemnav__item{
+    color: #fff;
+}
+.btn__spect{
+    font-family: Poppins;
+    padding: 16px 48px;
+    text-align: center;
+    background: transparent;
+    border:2px solid #F4F6FC33;
+    border-radius: 41px;
+    outline: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: #fff;
+}
+    /* ==============need part===================== */
+        #need{
+        background-color: #1C1E53;   
+    }
+        .need__part{
+        display: flex;
+        align-items: center;
+        padding: 128px 0 128px;
+    }
+    .needPart__fed{
+        width: 468px;        
+        font-family: Poppins;
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 74px;
+        text-align: left;
+        color: #fff;
+    }
+    .needPart__sed{
+        width: 562px; 
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: left;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        color: #fff;
+    }
+    .nePart__deer{
+        padding: 16px 48px;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 32px;
+        text-align: left;
+        background-color: yellow;
+        border-radius: 41px;
+        -webkit-border-radius: 41px;
+        -moz-border-radius: 41px;
+        -ms-border-radius: 41px;
+        -o-border-radius: 41px;
+}
+     #logo{
+
+     } 
+     .logo__part{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 96px;
+        padding-bottom: 96px;
+     }
+     .logPart__ged{
+        width: 176px;    
+        font-family: Poppins;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 56px;
+        text-align: left;
+
+     }
+     .logPart__vwr{
+        width: 103px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+
+     }
+     .logoPart__two{
+        display: flex;
+        column-gap: 32px;
+     }
+    /* ===========with part=================== */
+    .with__part{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .withHead__one{
+     width: 600px;  
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 46px;
+    margin: 0 auto;
+    }
+    .withMenu__ner{
+    width: 374px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    padding-top: 26px;
+    padding-bottom: 12px;
+    }
+    .with__menu{
+        background-color: #F4F6FC;
+        padding: 50px 0  48px 48px;
+    }
+    .withMenu__her{
+     width: 324px; 
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    padding-right: 32px;
+    }
+    /* ============around part=============== */
+
+
+    .arround__part{
+        display: flex;
+        justify-content: space-between;
+        padding: 128px 0;
+        align-items: center;
+        
+        
+    }
+   .arroundOne__one{
+    width: 136px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+
+   }
+.arroundOne__two{
+     width: 624px;   
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: left;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+}
+.arroundOne__three{
+    width: 622px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    
+
+}
+/* ==========get part============== */
+#get{
+    background-color: #F4F6FC;
+}
+.get__part{
+    display: flex;
+    align-items: center;
+    padding: 128px 0;
+    justify-content: space-between;
+}
+
+.getPart__ee{
+    width: 191px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+.getPart__hh{
+   width: 624px;
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: left;
+
+}
+.getPart__jj{
+    width: 622px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+}
+.getPart__one{
+    width: 575px;
+    height: 398px;
+    top: 2307px;
+    left: 161px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+/* =========suport part=============== */
+
+.suportOne__mm{
+    width: 119px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+
+}
+.suportOne__kk{
+    width: 624px;
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: left;
+
+}
+.suportOne__nn{
+    width: 622px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+}
+.suport__part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 128px 0;
+}
+/* ==========five part=========== */
+#five{
+  background-color: #FCD9801A;
+}
+.five__part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 128px 0;
+}
+ .fivePart__mer{
+    width: 115px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+
+ }
+ .fivePart__ser{
+     width: 624px;
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: left;
+
+ }
+ .fivePart__rqw{
+    width: 622px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+ }
+ /* =============foter part================== */
+ #last{
+    background-color: #1C1E53;
+ }
+ .foter__part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+.foterpart__left{
+    padding-top: 100px;
+}
+   .foter__sumury{
+    width: 399px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 22px;
+    margin-bottom: 86px;
+    color: #fff;
+   }
+   .soto__part{
+    display: flex;
+    padding: 16px 137px 16px 37px;
+    background-color: yellow;
+   }
+   .sotoLeft__one{
+    width: 108px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+
+   }
+   .sotoLeft__two{
+    width: 181px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+   }
+   .right__left{
+    width: 66px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+
+   }
+   .right__right{
+    width: 133px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+   }
+.side__one{
+    width: 333px;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: left;
+    color: #fff;
+}
+.side__two{
+    width: 399px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #fff;
+    padding: 28px 0;
+}
+.foter__veer{
+    display: flex;
+    justify-content: space-between;
+}
+.spot__item{
+    width: 16px;
+    height: 16px;
+    top: 286px;
+    left: 861.67px;
+    padding: 1.5px 0px 1.5px 0px;
+    gap: 0px;
+    opacity: 0px;
+}
+.menu__service{
+    width: 200px;
+}
+/* ==========last part=============== */
+.lastItem__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+}
+.nand__part{
+    display:flex;
+    column-gap: 32px;
+}
+   
